@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AutenticationApp</string>
+    <string name="default_web_client_id" translatable="false">289843672738-ic78b9d8q1cvvjq8l2sgsi3k01muhueu.apps.googleusercontent.com</string>
+</resources>
