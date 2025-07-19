@@ -14,6 +14,7 @@ import androidx.navigation.NavController
 import com.example.autenticationapp.data.AuthRepository
 import com.example.autenticationapp.viewmodel.AuthViewModel
 import com.example.autenticationapp.viewmodel.AuthViewModelFactory
+import androidx.compose.ui.text.style.TextAlign
 
 @Composable
 fun HomeScreen(navController: NavController) {
@@ -39,9 +40,11 @@ fun HomeScreen(navController: NavController) {
             verticalArrangement = Arrangement.Center
         ) {
             Text(
-                text = "Bem-vindo, $userName!",
+                text = "Bem-Vindo\n$userName\nVocê está Logado!",
                 fontSize = 28.sp,
-                fontWeight = FontWeight.Bold
+                fontWeight = FontWeight.ExtraBold,
+                textAlign = TextAlign.Center,
+                lineHeight = 36.sp
             )
             Spacer(modifier = Modifier.height(32.dp))
             Button(

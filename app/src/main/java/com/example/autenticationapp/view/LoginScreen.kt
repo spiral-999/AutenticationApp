@@ -81,7 +81,7 @@ fun LoginScreen(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Text("Bem-vindo!", fontSize = 28.sp, fontWeight = FontWeight.Bold)
+            Text("Autentication App", fontSize = 28.sp, fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.height(32.dp))
 
             OutlinedTextField(
